@@ -207,6 +207,55 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1654897402203635609, guid: 6066a2e6e73d537488d8acbb6cc28163, type: 3}
   m_PrefabInstance: {fileID: 5027503425945845690}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &236466373
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 236466375}
+  - component: {fileID: 236466374}
+  m_Layer: 0
+  m_Name: Magica Capsule Collider (Bip30)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &236466374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236466373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6f5338a96461264fb9a1132c8509672, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {x: 0, y: 0, z: 0}
+  size: {x: 0.011, y: 0.017, z: 0.18}
+  direction: 1
+  radiusSeparation: 1
+  alignedOnCenter: 1
+--- !u!4 &236466375
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 236466373}
+  m_LocalRotation: {x: -0.08925692, y: -0.009110955, z: 0.08118054, w: 0.99265295}
+  m_LocalPosition: {x: -0.006, y: 0.082, z: -0}
+  m_LocalScale: {x: 1.0000027, y: 1.0000008, z: 1.0000015}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 60750294}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -10.121, y: -1.897, z: 9.519}
 --- !u!4 &247333241 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3900024794125846790, guid: 6066a2e6e73d537488d8acbb6cc28163, type: 3}
@@ -1718,7 +1767,7 @@ PrefabInstance:
     - target: {fileID: 5866666021909216657, guid: 615f7aa9513486a4a9bc916038c973e2, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 9828adb22cf28294eade0e1a8500204d, type: 2}
+      objectReference: {fileID: 9100000, guid: 8bd7472d3be60bf46b21ceb2e8476567, type: 2}
     - target: {fileID: 5866666021909216657, guid: 615f7aa9513486a4a9bc916038c973e2, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 0
@@ -1873,6 +1922,55 @@ MonoBehaviour:
   direction: 1
   radiusSeparation: 1
   alignedOnCenter: 1
+--- !u!1 &653981121
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 653981123}
+  - component: {fileID: 653981122}
+  m_Layer: 0
+  m_Name: Magica Capsule Collider (Bip29)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &653981122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653981121}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6f5338a96461264fb9a1132c8509672, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  center: {x: 0, y: 0, z: 0}
+  size: {x: 0.011, y: 0.017, z: 0.18}
+  direction: 1
+  radiusSeparation: 1
+  alignedOnCenter: 1
+--- !u!4 &653981123
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 653981121}
+  m_LocalRotation: {x: -0.08744901, y: -0.020061927, z: -0.04200491, w: 0.9950808}
+  m_LocalPosition: {x: 0.009, y: 0.086, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1675723574}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -10.121, y: -1.897, z: -4.666}
 --- !u!4 &658143797 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2038520295996063215, guid: 6066a2e6e73d537488d8acbb6cc28163, type: 3}
@@ -2190,7 +2288,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: -0.0076132794, y: -0.91775745, z: -0.017613715, w: 0.39667752}
-  m_LocalPosition: {x: 1.2710288, y: 0.9362552, z: 2.2220135}
+  m_LocalPosition: {x: 0.758, y: 0.724, z: 1.852}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2659,7 +2757,7 @@ PrefabInstance:
     - target: {fileID: 1490640982498860242, guid: 6066a2e6e73d537488d8acbb6cc28163, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 9828adb22cf28294eade0e1a8500204d, type: 2}
+      objectReference: {fileID: 9100000, guid: 8bd7472d3be60bf46b21ceb2e8476567, type: 2}
     - target: {fileID: 1490640982498860242, guid: 6066a2e6e73d537488d8acbb6cc28163, type: 3}
       propertyPath: m_ApplyRootMotion
       value: 0
@@ -4492,7 +4590,9 @@ MonoBehaviour:
     colliderCollisionConstraint:
       mode: 1
       friction: 0.05
-      colliderList: []
+      colliderList:
+      - {fileID: 653981122}
+      - {fileID: 236466374}
     selfCollisionConstraint:
       selfMode: 0
       surfaceThickness:
@@ -4539,6 +4639,9 @@ MonoBehaviour:
       - x: -0.077026196
         y: 1.4070793
         z: 0.058458447
+      - x: -0.06887114
+        y: 1.3255199
+        z: 0.064905286
       - x: -0.062330388
         y: 1.3224043
         z: 0.06631863
@@ -4548,6 +4651,9 @@ MonoBehaviour:
       - x: 0.077059776
         y: 1.4069496
         z: 0.05845797
+      - x: 0.070490025
+        y: 1.3209819
+        z: 0.065044165
       - x: 0.062369913
         y: 1.3258399
         z: 0.06633687
@@ -4570,14 +4676,16 @@ MonoBehaviour:
       - Value: 1
       - Value: 2
       - Value: 2
-      - Value: 1
-      - Value: 2
       - Value: 2
       - Value: 1
       - Value: 2
       - Value: 2
       - Value: 2
-      maxConnectionDistance: 0.086299576
+      - Value: 1
+      - Value: 2
+      - Value: 2
+      - Value: 2
+      maxConnectionDistance: 0.08646964
       userEdit: 0
   gizmoSerializeData:
     always: 0
